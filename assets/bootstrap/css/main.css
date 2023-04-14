@@ -1,0 +1,25 @@
+video {
+    width: 50%;
+    height: auto;
+}
+
+.device-container {
+    margin-bottom:100px;
+    max-width:325px;
+    margin:0 auto
+}
+video {
+    /* override other styles to make responsive */
+    width: 20%    !important;
+    height: auto   !important;
+  }
+@media only screen and (max-width: 600px) {
+    video {
+        /* override other styles to make responsive */
+        width: 80%    !important;
+        height: auto   !important;
+      }
+    .device-container{
+        margin-bottom:0
+    }
+}
